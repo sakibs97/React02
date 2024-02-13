@@ -1,0 +1,47 @@
+.menu-bg .navbar-nav a{
+    font-family: "Roboto", sans-serif;
+    color: #0B0B0B !important;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 30px;
+}
+.menu-bg .navbar-nav a:hover{
+    color: #EA580C !important;
+}
+.btn{
+    padding: 15px 30px !important;
+    background-color: #EA580C !important;
+    border-radius: 20px !important;
+}
+.btn:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.btn a{
+    color:  #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    width: 500;
+}
+
+@media (max-width:767px){
+    .nav_img img{
+        width: 70%;
+    }    
+    button.navbar-toggler{
+        padding: 0;
+    }
+    .navbar-collapse{
+        text-align: center;
+    }
+}
+@media (min-width:768px) and (max-width:991.98px){
+    .navbar-collapse{
+        text-align: center;
+    }
+}
+@media (min-width:992px) and (max-width:1199.98px){
+    
+}
+@media (min-width:1200px) and (max-width:1399.98px){
+
+}
